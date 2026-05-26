@@ -1,1 +1,37 @@
-{\n  \"name\": \"selocare-app\",\n  \"version\": \"1.0.0\",\n  \"description\": \"SeloCare - Perlindungan Drainase & Prediksi Banjir Pintar\",\n  \"type\": \"module\",\n  \"scripts\": {\n    \"dev\": \"vite\",\n    \"build\": \"tsc && vite build\",\n    \"lint\": \"eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0\",\n    \"preview\": \"vite preview\"\n  },\n  \"dependencies\": {\n    \"react\": \"^18.2.0\",\n    \"react-dom\": \"^18.2.0\",\n    \"react-router-dom\": \"^6.20.0\",\n    \"lucide-react\": \"^0.296.0\",\n    \"firebase\": \"^10.7.0\",\n    \"axios\": \"^1.6.0\",\n    \"chart.js\": \"^4.4.0\",\n    \"react-chartjs-2\": \"^5.2.0\",\n    \"leaflet\": \"^1.9.4\",\n    \"react-leaflet\": \"^4.2.3\",\n    \"framer-motion\": \"^10.16.4\",\n    \"zustand\": \"^4.4.0\"\n  },\n  \"devDependencies\": {\n    \"@types/react\": \"^18.2.37\",\n    \"@types/react-dom\": \"^18.2.15\",\n    \"@vitejs/plugin-react\": \"^4.2.1\",\n    \"typescript\": \"^5.2.2\",\n    \"vite\": \"^5.0.8\",\n    \"tailwindcss\": \"^3.4.0\",\n    \"postcss\": \"^8.4.31\",\n    \"autoprefixer\": \"^10.4.16\"\n  }\n}\n
+{
+  "name": "selocare-app",
+  "version": "1.0.0",
+  "description": "SeloCare - Perlindungan Drainase & Prediksi Banjir Pintar",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.20.0",
+    "lucide-react": "^0.296.0",
+    "firebase": "^10.7.0",
+    "axios": "^1.6.0",
+    "chart.js": "^4.4.0",
+    "react-chartjs-2": "^5.2.0",
+    "leaflet": "^1.9.4",
+    "react-leaflet": "^4.2.3",
+    "framer-motion": "^10.16.4",
+    "zustand": "^4.4.0",
+    "react-hot-toast": "^2.4.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.37",
+    "@types/react-dom": "^18.2.15",
+    "@vitejs/plugin-react": "^4.2.1",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.8",
+    "tailwindcss": "^3.4.0",
+    "postcss": "^8.4.31",
+    "autoprefixer": "^10.4.16"
+  }
+}
